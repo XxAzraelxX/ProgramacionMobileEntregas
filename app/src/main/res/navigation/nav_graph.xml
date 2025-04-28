@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.appcompatactivity.ui.login.LoginFragment"
+        android:label="Login" />
+
+    <fragment
+        android:id="@+id/detallesFragment"
+        android:name="com.example.appcompatactivity.ui.detalles.DetallesFragment"
+        android:label="Panel Principal" />
+
+    <fragment
+        android:id="@+id/configuracionFragment"
+        android:name="com.example.appcompatactivity.ui.config.ConfiguracionFragment"
+        android:label="Configuración" />
+</navigation>

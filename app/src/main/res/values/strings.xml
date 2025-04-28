@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AppCompatActivity</string>
+    <!-- El ID de cliente de OAuth para Google Sign-In -->
+    <string name="default_web_client_id">657231018699-pkb9p34lgt5ra12is3pemqu64125rijo.apps.googleusercontent.com</string>
+</resources>
